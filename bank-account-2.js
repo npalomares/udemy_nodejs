@@ -12,7 +12,6 @@ var createAccount = function(account) {
 	return account;
 }
 
-
 //function getAccount(username - string)
 //find matching account using forEach function
 //if username matches a username in account object return account
@@ -50,7 +49,7 @@ var nicksAccount = createAccount({
 deposit(nicksAccount, 1000);
 console.log(getBalance(nicksAccount));
 
-widthdrawal(nicksAccount, 11);
+widthdrawal(nicksAccount, 45);
 console.log(getBalance(nicksAccount));
 
 
@@ -63,12 +62,10 @@ var billysAccount = createAccount({
 	balance: 23
 });
 
+var existingBillysAccount = getAccount('billy007');
+//console.log(exitingBillysAccount);
+
 console.log(accounts);
-
-var exitingBillysAccount = getAccount('billy007');
-console.log(exitingBillysAccount);
-
-
 
 
 
